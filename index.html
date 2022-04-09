@@ -397,7 +397,7 @@
                     </li>
                 </ul>
             </div>
-            <form action="" name = "mail-subscription" class = "subscription">
+            <form name = "mail-subscription" class = "subscription">
                 <label for = "subscription-email" class = "footer__text">Подпишитесь на рассылку</label>
                 <div class = "subscription__container">
                     <input class = "subscription__input" type="email" name = "subscription-email" id="subscription-email" placeholder="E-mail">
@@ -422,7 +422,7 @@
                 </svg>
             </button>
             <p class = "modal__text">Оставьте свои данные, мы вам перезвоним</p>
-            <form action="" name = "modal-form">
+            <form name = "modal-form">
                 <div class = "modal-form__container">
                     <input class="modal-form__input-box" type="text" id = "name-input" name = "reqest-name" required>
                     <label class="modal-form__lable" for="name-input">Имя</label>
@@ -445,23 +445,22 @@
                     </svg>
                 </div>
                 <div class = "modal-form__container">
-                    <textarea class="modal-form__input-box modal-form__textarea" class="modal-form__input-box" name="reqest-comment" id="coment-input" cols="30" placeholder="Введите текст"></textarea>
+                    <textarea class="modal-form__input-box modal-form__textarea" name="reqest-comment" id="coment-input" cols="30" placeholder="Введите текст"></textarea>
                     <label class="modal-form__lable" for="coment-input">Коментарий</label>
                 </div>
                 <div class="checkbox">
                     <input type="checkbox" id = "mailing-check" class = "checkbox__input checkbox-hidden">
                     <label class="checkbox__label" for="mailing-check">
-                        <div class="checkbox__custom-checkbox">
+                        <span class="checkbox__custom-checkbox">
                             <svg width = "16" height = "15" class = "checkbox__not-active">
                                 <use href="./images/icons.svg#icon-checkbox-na"></use>
                             </svg>
                             <svg width = "16" height = "15" class = "checkbox__active">
                                 <use href="./images/icons.svg#icon-checkbox"></use>
                             </svg>
-                        </div>
-                        <p>
-                            Соглашаюсь с рассылкой и принимаю <a class="checkbox__link" href="">Условия договора</a></label>
-                        </p>
+                        </span>
+                            Соглашаюсь с рассылкой и принимаю <a class="checkbox__link" href="">Условия договора</a>
+                    </label>
                 </div>
                 <button type="submit" class = "form-submit-button">Отправить</button>
             </form>
