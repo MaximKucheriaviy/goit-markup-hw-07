@@ -173,8 +173,6 @@ body {
   padding-bottom: 10px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
   -webkit-transition-property: color;
@@ -192,7 +190,7 @@ body {
 .navigation__link.is-active::before {
   content: "";
   position: absolute;
-  bottom: calc(0% - 25px);
+  bottom: calc(0% - 26px);
   left: 0px;
   width: 100%;
   height: 4px;
@@ -223,6 +221,7 @@ body {
 
 .footer-logo {
   color: #ffffff;
+  margin-right: 0;
 }
 
 .header-contacts {
@@ -969,8 +968,8 @@ body {
   padding-right: 24px;
   padding-left: 24px;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transform: translate(0%, 100%);
-          transform: translate(0%, 100%);
+  -webkit-transform: translate(0%, 101%);
+          transform: translate(0%, 101%);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
